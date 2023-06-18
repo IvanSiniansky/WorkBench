@@ -50,6 +50,7 @@ public class Main {
                 return scanner.nextInt();
             } catch (Exception e) {
                 System.out.println("Не удалось считать число. Попробуйте еще раз.");
+                scanner.next();
             }
         }
     }
